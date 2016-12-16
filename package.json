@@ -1,0 +1,19 @@
+{
+  "name": "americons",
+  "version": "1.0.0",
+  "description": "SVGs and Icon Font for the geographic boundaries of the United States",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bowmanmc/americons.git"
+  },
+  "author": "Michael Bowman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bowmanmc/americons/issues"
+  },
+  "homepage": "https://github.com/bowmanmc/americons#readme"
+}
