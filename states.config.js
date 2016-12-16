@@ -1,0 +1,209 @@
+export default [{
+    id: 'AL',
+    name: 'Alabama',
+    fips: '01'
+}, {
+    id: 'AK',
+    name: 'Alaska',
+    fips: '02'
+}, {
+    id: 'AZ',
+    name: 'Arizona',
+    fips: '04'
+}, {
+    id: 'AR',
+    name: 'Arkansas',
+    fips: '05'
+}, {
+    id: 'CA',
+    name: 'California',
+    fips: '06'
+}, {
+    id: 'CO',
+    name: 'Colorado',
+    fips: '08'
+}, {
+    id: 'CT',
+    name: 'Connecticut',
+    fips: '09'
+}, {
+    id: 'DE',
+    name: 'Delaware',
+    fips: '10'
+}, {
+    id: 'DC',
+    name: 'District of Columbia',
+    fips: '11'
+}, {
+    id: 'FL',
+    name: 'Florida',
+    fips: '12'
+}, {
+    id: 'GA',
+    name: 'Georgia',
+    fips: '13'
+}, {
+    id: 'HI',
+    name: 'Hawaii',
+    fips: '15'
+}, {
+    id: 'ID',
+    name: 'Idaho',
+    fips: '16'
+}, {
+    id: 'IL',
+    name: 'Illinois',
+    fips: '17'
+}, {
+    id: 'IN',
+    name: 'Indiana',
+    fips: '18'
+}, {
+    id: 'IA',
+    name: 'Iowa',
+    fips: '19'
+}, {
+    id: 'KS',
+    name: 'Kansas',
+    fips: '20'
+}, {
+    id: 'KY',
+    name: 'Kentucky',
+    fips: '21'
+}, {
+    id: 'LA',
+    name: 'Louisiana',
+    fips: '22'
+}, {
+    id: 'ME',
+    name: 'Maine',
+    fips: '23'
+}, {
+    id: 'MD',
+    name: 'Maryland',
+    fips: '24'
+}, {
+    id: 'MA',
+    name: 'Massachusetts',
+    fips: '25'
+}, {
+    id: 'MI',
+    name: 'Michigan',
+    fips: '26'
+}, {
+    id: 'MN'
+    name: 'Minnesota',
+    fips: '27'
+}, {
+    id: 'MS',
+    name: 'Mississsippi',
+    fips: '28'
+}, {
+    id: 'MO',
+    name: 'Missouri',
+    fips: '29'
+}, {
+    id: 'MT',
+    name: 'Montana',
+    fips: '30'
+}, {
+    id: 'NE',
+    name: 'Nebraska',
+    fips: '31'
+}, {
+    id: 'NV',
+    name: 'Nevada',
+    fips: '32'
+}, {
+    id: 'NH',
+    name: 'New Hampshire',
+    fips: '33'
+}, {
+    id: 'NJ',
+    name: 'New Jersey',
+    fips: '34'
+}, {
+    id: 'NM',
+    name: 'New Mexico',
+    fips: '35'
+}, {
+    id: 'NY',
+    name: 'New York',
+    fips: '36'
+}, {
+    id: 'NC',
+    name: 'North Carolina',
+    fips: '37'
+}, {
+    id: 'ND',
+    name: 'North Dakota',
+    fips: '38'
+}, {
+    id: 'OH',
+    name: 'Ohio',
+    fips: '39'
+}, {
+    id: 'OK',
+    name: 'Oklahoma',
+    fips: '40'
+}, {
+    id: 'OR',
+    name: 'Oregon',
+    fips: '41'
+}, {
+    id: 'PA',
+    name: 'Pennsylvania',
+    fips: '42'
+}, {
+    id: 'PR',
+    name: 'Puerto Rico',
+    fips: '72'
+}, {
+    id: 'RI',
+    name: 'Rhode Island',
+    fips: '44'
+}, {
+    id: 'SC',
+    name: 'South Carolina',
+    fips: '45'
+}, {
+    id: 'SD',
+    name: 'South Dakota',
+    fips: '46'
+}, {
+    id: 'TN',
+    name: 'Tennessee',
+    fips: '47'
+}, {
+    id: 'TX',
+    name: 'Texas',
+    fips: '48'
+}, {
+    id: 'UT',
+    name: 'Utah',
+    fips: '49'
+}, {
+    id: 'VT',
+    name: 'Vermont',
+    fips: '50'
+}, {
+    id: 'VA',
+    name: 'Virginia',
+    fips: '51'
+}, {
+    id: 'WA',
+    name: 'Washington',
+    fips: '53'
+}, {
+    id: 'WV',
+    name: 'West Virginia',
+    fips: '54'
+}, {
+    id: 'WI',
+    name: 'Wisconsin',
+    fips: '55'
+}, {
+    id: 'WY',
+    name: 'Wyoming',
+    fips: '56'
+}];
