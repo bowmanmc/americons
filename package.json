@@ -4,9 +4,11 @@
   "description": "SVGs and Icon Font for the geographic boundaries of the United States",
   "main": "index.js",
   "scripts": {
+    "start": "npm-run-all tiger unzip",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pretiger": "rimraf ./shp",
-    "tiger": "node tools/downloadTiger.js"
+    "pretiger": "rimraf shp zip",
+    "tiger": "node tools/downloadTiger.js",
+    "unzip": "node tools/unzipTiger.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,8 @@
   "dependencies": {
     "bluebird": "^3.4.6",
     "mkdirp": "^0.5.1",
-    "rimraf": "^2.5.4"
+    "npm-run-all": "^3.1.2",
+    "rimraf": "^2.5.4",
+    "unzip": "^0.1.11"
   }
 }

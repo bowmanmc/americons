@@ -4,7 +4,7 @@ const mkdirp = require('mkdirp');
 const Promise = require('bluebird');
 
 const states = require('../states.config.js');
-const OUT_DIR = 'shp';
+const OUT_DIR = 'zip';
 
 function downloadFile(url, filename) {
     const deferred = Promise.pending();
