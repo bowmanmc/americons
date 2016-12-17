@@ -4,7 +4,9 @@
   "description": "SVGs and Icon Font for the geographic boundaries of the United States",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretiger": "rimraf ./shp",
+    "tiger": "node tools/downloadTiger.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/bowmanmc/americons/issues"
   },
-  "homepage": "https://github.com/bowmanmc/americons#readme"
+  "homepage": "https://github.com/bowmanmc/americons#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "mkdirp": "^0.5.1",
+    "promise": "^7.1.1",
+    "rimraf": "^2.5.4"
+  }
 }

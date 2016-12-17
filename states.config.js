@@ -1,4 +1,4 @@
-export default [{
+module.exports = [{
     id: 'AL',
     name: 'Alabama',
     fips: '01'
@@ -91,7 +91,7 @@ export default [{
     name: 'Michigan',
     fips: '26'
 }, {
-    id: 'MN'
+    id: 'MN',
     name: 'Minnesota',
     fips: '27'
 }, {
