@@ -4,9 +4,11 @@
   "description": "SVGs and Icon Font for the geographic boundaries of the United States",
   "main": "index.js",
   "scripts": {
-    "start": "npm-run-all tiger unzip",
+    "json": "node tools/convertToJson.js",
+    "start": "npm-run-all tiger unzip json",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pretiger": "rimraf shp zip",
+    "clean": "rimraf json shp zip",
+    "pretiger": "npm-run-all clean",
     "tiger": "node tools/downloadTiger.js",
     "unzip": "node tools/unzipTiger.js"
   },
@@ -25,6 +27,8 @@
     "mkdirp": "^0.5.1",
     "npm-run-all": "^3.1.2",
     "rimraf": "^2.5.4",
+    "shapefile": "^0.5.9",
+    "svgo": "^0.7.1",
     "unzip": "^0.1.11"
   }
 }
