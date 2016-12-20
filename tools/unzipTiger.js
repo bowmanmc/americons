@@ -1,11 +1,15 @@
 const fs = require('fs');
-const Promise = require('bluebird');
 const unzip = require('unzip');
 
+const TIGER = require('../tiger.config.js');
+const IN_DIR = 'zip';
+const OUT_DIR = 'shp';
 
-let zipFile = 'zip/cb_2015_us_state_500k.zip';
-let outPath = 'shp';
-console.log('Unziping ' + zipFile + ' to ' + outPath);
-fs.createReadStream(zipFile).pipe(unzip.Extract({
-    path: outPath
-}));
+TIGER.files.forEach(file => {
+    let inPath = `${IN_DIR}/${file.filename}.zip`;
+    let outPath = `${OUT_DIR}/${file.resolution}`;
+    console.log(`Unzipping ${inPath} to ${outPath}...`);
+    fs.createReadStream(inPath).pipe(unzip.Extract({
+        path: outPath
+    }));
+});

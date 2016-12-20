@@ -8,8 +8,12 @@
     "start": "npm-run-all tiger unzip json",
     "svg": "node tools/convertToSvg.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rimraf json shp svg svgo",
+    "clean:json": "rimraf json",
+    "clean:shp": "rimraf shp",
+    "clean:svg": "rimraf svg",
+    "clean": "npm-run-all clean:json clean:shp clean:svg",
     "optimize": "node tools/optimizeSvg.js",
+    "preunzip": "npm run clean:shp",
     "unzip": "node tools/unzipTiger.js"
   },
   "repository": {
