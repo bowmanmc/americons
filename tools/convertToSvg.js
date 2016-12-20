@@ -7,18 +7,17 @@ require('d3-selection-multi');
 const fs = require('fs');
 const jsdom = require('jsdom');
 const mkdirp = require('mkdirp');
+const Promise = require('bluebird');
 
 
+const IN_DIR = 'json';
 const OUT_DIR = 'svg';
-const TIGER = require('../json/cb_2015_us_state_500k.json');
+const TIGER = require('../tiger.config.js');
 const STATES = require('../states.config.js');
 const SIZE = 1000;
 
 
-mkdirp.sync(OUT_DIR);
-let features = TIGER.features;
-
-function getFeature(stateId) {
+function getFeature(features, stateId) {
     var i, feature;
     var len = features.length;
     for (i = 0; i < len; i++) {
@@ -31,9 +30,8 @@ function getFeature(stateId) {
     console.log('ERROR: Couldn\'t find: ' + stateId);
 }
 
-STATES.forEach(state => {
-    let feature = getFeature(state.id);
-    let outFile = `${OUT_DIR}/${state.id}.svg`;
+function renderSvg(feature, state, outFile) {
+    const deferred = Promise.pending();
 
     jsdom.env({
         html: '',
@@ -67,11 +65,26 @@ STATES.forEach(state => {
                 });
 
             var output = svg.node().parentNode.innerHTML;
-            //console.log('SVG: ' + output);
             fs.writeFileSync(outFile, output);
-            console.log('Rendered ' + outFile);
+            console.log('    ...wrote file: ' + outFile);
+            deferred.resolve();
         }
     });
 
+    return deferred.promise;
+}
 
+TIGER.files.forEach(tigerFile => {
+    let filePath = `${IN_DIR}/${tigerFile.resolution}/${tigerFile.filename}.json`;
+    console.log(`Processing JSON file: ${filePath}...`);
+
+    let features = JSON.parse(fs.readFileSync(filePath, 'utf8')).features;
+
+    Promise.each(STATES, function(state) {
+        let feature = getFeature(features, state.id);
+        let outPath = `${OUT_DIR}/${tigerFile.resolution}`;
+        let outFile = `${outPath}/${state.id}.svg`;
+        mkdirp.sync(outPath);
+        return renderSvg(feature, state, outFile);
+    });
 });
