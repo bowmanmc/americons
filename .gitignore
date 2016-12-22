@@ -39,5 +39,4 @@ jspm_packages
 # Output directories
 json
 shp
-svg
-svgo
+svgraw

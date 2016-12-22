@@ -5,8 +5,8 @@ const mkdirp = require('mkdirp');
 const path = require('path');
 const SVGO = require('svgo');
 
-const IN_DIR = 'svg';
-const OUT_DIR = 'svgo';
+const IN_DIR = 'svgraw';
+const OUT_DIR = 'svg';
 
 const svgo = new SVGO();
 
@@ -23,7 +23,7 @@ function getFileSize(filepath) {
 
 glob(matcher, function(err, files) {
     files.forEach(file => {
-        let outFile = file.replace('svg', 'svgo');
+        let outFile = file.replace(IN_DIR, OUT_DIR);
         let outDir = path.dirname(outFile);
         mkdirp.sync(outDir);
         let inSize = getFileSize(file);
@@ -32,7 +32,7 @@ glob(matcher, function(err, files) {
                 fs.writeFileSync(outFile, result.data);
                 let outSize = getFileSize(outFile);
                 let filename = path.basename(outFile);
-                console.log(`Optimized ${file} from ${inSize} to ${outSize}`);
+                console.log(`Optimized ${file} from ${inSize} to ${outSize} in ${outFile}`);
             });
         });
     });
