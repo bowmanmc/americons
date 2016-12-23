@@ -4,7 +4,8 @@
   "description": "SVGs and Icon Font for the geographic boundaries of the United States",
   "main": "index.js",
   "scripts": {
-    "start": "",
+    "start": "npm run server:dev",
+    "server:dev": "babel-node tools/runBrowserSync.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "fonts": "npm-run-all fonts:unzip fonts:json fonts:svg fonts:optimize fonts:fonts fonts:version",
     "prefonts:unzip": "rimraf shp",
@@ -52,5 +53,12 @@
     "svgo": "^0.7.1",
     "sync-exec": "^0.6.2",
     "unzip": "^0.1.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "browser-sync": "^2.18.5"
   }
 }
