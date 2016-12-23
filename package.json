@@ -6,7 +6,10 @@
   "scripts": {
     "jekyll": "jekyll build --incremental --source www --destination site",
     "prestart": "npm-run-all jekyll",
-    "start": "npm-run-all --parallel server:dev watch:jekyll",
+    "presass": "sass-lint -c .sass-lint.yml -v",
+    "sass": "node-sass --source-map true --include-path www/sass --include-path node_modules www/sass/main.scss www/styles/bundle.css",
+    "postsass": "postcss -c postcss.config.json",
+    "start": "npm-run-all --parallel server:dev watch",
     "server:dev": "babel-node tools/runBrowserSync.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "fonts": "npm-run-all fonts:unzip fonts:json fonts:svg fonts:optimize fonts:fonts fonts:version",
@@ -21,8 +24,9 @@
     "prefonts:fonts": "rimraf fonts",
     "fonts:fonts": "gulp fonts",
     "fonts:version": "node tools/generateVersionTxt.js",
-    "watch": "npm-run-all --parallel watch:jekyll",
-    "watch:jekyll": "nodemon -w www -e html,md,png,jpg,gif,svg,yml,xml,js,css --ignore www/sass --delay 1 -x \"npm run jekyll\""
+    "watch": "npm-run-all --parallel watch:jekyll watch:sass",
+    "watch:jekyll": "nodemon -w www -e html,md,png,jpg,gif,svg,yml,xml,js,css --ignore www/sass --delay 1 -x \"npm run jekyll\"",
+    "watch:sass": "nodemon -e scss -w www/sass -x \"npm run sass\""
   },
   "repository": {
     "type": "git",
@@ -35,7 +39,9 @@
   },
   "homepage": "https://github.com/bowmanmc/americons#readme",
   "dependencies": {
+    "autoprefixer": "^6.6.0",
     "bluebird": "^3.4.6",
+    "cssnano": "^3.9.1",
     "d3": "^4.4.0",
     "d3-geo": "^1.4.0",
     "d3-geo-projection": "^1.2.1",
@@ -51,8 +57,12 @@
     "jsdom": "^9.8.3",
     "mkdirp": "^0.5.1",
     "moment": "^2.17.1",
+    "node-sass": "^4.1.1",
+    "normalize.css": "^5.0.0",
     "npm-run-all": "^3.1.2",
+    "postcss-cli": "^2.6.0",
     "rimraf": "^2.5.4",
+    "sass-lint": "^1.10.2",
     "shapefile": "^0.5.9",
     "svgo": "^0.7.1",
     "sync-exec": "^0.6.2",
@@ -64,6 +74,7 @@
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.18.0",
     "browser-sync": "^2.18.5",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "webpack": "^1.14.0"
   }
 }
