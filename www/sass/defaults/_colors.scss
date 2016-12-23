@@ -1,0 +1,16 @@
+
+$clr-red: #db716c;
+$clr-blue: #6cb0db;
+$clr-blue-dark: #041f2d;
+$clr-black: #000;
+$clr-off-white: #f6f9f6;
+$clr-white: #fff;
+
+// navigation
+$clr-navbg: $clr-blue-dark;
+$clr_navtxt: $clr-off-white;
+$clr-navborder: $clr-white;
+
+// header
+$clr-headerbg1: $clr-off-white;
+$clr-headerbg2: mix($clr-red, $clr-off-white, 35%);

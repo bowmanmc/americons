@@ -4,3 +4,12 @@
 @import 'normalize.css/normalize';
 @import 'bourbon/bourbon';
 @import 'neat/neat';
+
+// Defaults
+@import 'defaults/colors';
+
+// Components
+@import 'components/header';
+@import 'components/navigation';
+
+// Pages
