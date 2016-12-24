@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Americons';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/americons/fonts/americons.eot?#iefix");
+  src: url("/americons/fonts/americons.eot?#iefix") format("embedded-opentype"), url("/americons/fonts/americons.woff2") format("woff2"), url("/americons/fonts/americons.woff") format("woff"), url("/americons/fonts/americons.ttf") format("truetype"), url("/americons/fonts/americons.svg") format("svg"); }
+
+.am {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: Americons;
+  font-size: inherit;
+  font-style: normal;
+  text-rendering: auto; }
+
+.am-usa::before {
+  content: '\ea07'; }
+
+.am-oh::before {
+  content: '\ea25'; }
+
+/*# sourceMappingURL=americons.css.map */

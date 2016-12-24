@@ -2,7 +2,7 @@ const copydir = require('copy-dir');
 const mkdirp = require('mkdirp');
 
 const OUT_DIR = 'www/americons';
-const folders = ['fonts', 'sass', 'svg'];
+const folders = ['css', 'fonts', 'sass', 'svg'];
 
 mkdirp.sync(OUT_DIR);
 folders.forEach(folder => {

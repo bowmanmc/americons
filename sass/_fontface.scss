@@ -1,0 +1,14 @@
+
+$fontpath: '/americons/fonts';
+
+@font-face {
+    font-family: 'Americons';
+    font-style: normal;
+    font-weight: normal;
+    src: url('#{$fontpath}/americons.eot?#iefix');
+    src: url('#{$fontpath}/americons.eot?#iefix') format('embedded-opentype'),
+         url('#{$fontpath}/americons.woff2') format('woff2'),
+         url('#{$fontpath}/americons.woff') format('woff'),
+         url('#{$fontpath}/americons.ttf') format('truetype'),
+         url('#{$fontpath}/americons.svg') format('svg');
+}

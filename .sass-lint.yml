@@ -6,6 +6,7 @@ files:
     ignore:
         - 'www/sass/bourbon/**'
         - 'www/sass/neat/**'
+        - '**/_fontface.scss'
 rules:
     # Extends
     extends-before-mixins: 0

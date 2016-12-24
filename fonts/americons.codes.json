@@ -1,1 +1,217 @@
-[{"name":"ak","code":59905,"hex":"ea01"},{"name":"al","code":59906,"hex":"ea02"},{"name":"ar","code":59907,"hex":"ea03"},{"name":"az","code":59908,"hex":"ea04"},{"name":"ca","code":59909,"hex":"ea05"},{"name":"co","code":59910,"hex":"ea06"},{"name":"contiguous","code":59911,"hex":"ea07"},{"name":"ct","code":59912,"hex":"ea08"},{"name":"dc","code":59913,"hex":"ea09"},{"name":"de","code":59914,"hex":"ea0a"},{"name":"fl","code":59915,"hex":"ea0b"},{"name":"ga","code":59916,"hex":"ea0c"},{"name":"hi","code":59917,"hex":"ea0d"},{"name":"ia","code":59918,"hex":"ea0e"},{"name":"id","code":59919,"hex":"ea0f"},{"name":"il","code":59920,"hex":"ea10"},{"name":"in","code":59921,"hex":"ea11"},{"name":"ks","code":59922,"hex":"ea12"},{"name":"ky","code":59923,"hex":"ea13"},{"name":"la","code":59924,"hex":"ea14"},{"name":"ma","code":59925,"hex":"ea15"},{"name":"md","code":59926,"hex":"ea16"},{"name":"me","code":59927,"hex":"ea17"},{"name":"mi","code":59928,"hex":"ea18"},{"name":"mn","code":59929,"hex":"ea19"},{"name":"mo","code":59930,"hex":"ea1a"},{"name":"ms","code":59931,"hex":"ea1b"},{"name":"mt","code":59932,"hex":"ea1c"},{"name":"nc","code":59933,"hex":"ea1d"},{"name":"nd","code":59934,"hex":"ea1e"},{"name":"ne","code":59935,"hex":"ea1f"},{"name":"nh","code":59936,"hex":"ea20"},{"name":"nj","code":59937,"hex":"ea21"},{"name":"nm","code":59938,"hex":"ea22"},{"name":"nv","code":59939,"hex":"ea23"},{"name":"ny","code":59940,"hex":"ea24"},{"name":"oh","code":59941,"hex":"ea25"},{"name":"ok","code":59942,"hex":"ea26"},{"name":"or","code":59943,"hex":"ea27"},{"name":"pa","code":59944,"hex":"ea28"},{"name":"pr","code":59945,"hex":"ea29"},{"name":"ri","code":59946,"hex":"ea2a"},{"name":"sc","code":59947,"hex":"ea2b"},{"name":"sd","code":59948,"hex":"ea2c"},{"name":"tn","code":59949,"hex":"ea2d"},{"name":"tx","code":59950,"hex":"ea2e"},{"name":"usa","code":59951,"hex":"ea2f"},{"name":"ut","code":59952,"hex":"ea30"},{"name":"va","code":59953,"hex":"ea31"},{"name":"vt","code":59954,"hex":"ea32"},{"name":"wa","code":59955,"hex":"ea33"},{"name":"wi","code":59956,"hex":"ea34"},{"name":"wv","code":59957,"hex":"ea35"},{"name":"wy","code":59958,"hex":"ea36"}]
+[{
+    "name": "ak",
+    "code": 59905,
+    "hex": "ea01"
+}, {
+    "name": "al",
+    "code": 59906,
+    "hex": "ea02"
+}, {
+    "name": "ar",
+    "code": 59907,
+    "hex": "ea03"
+}, {
+    "name": "az",
+    "code": 59908,
+    "hex": "ea04"
+}, {
+    "name": "ca",
+    "code": 59909,
+    "hex": "ea05"
+}, {
+    "name": "co",
+    "code": 59910,
+    "hex": "ea06"
+}, {
+    "name": "contiguous",
+    "code": 59911,
+    "hex": "ea07"
+}, {
+    "name": "ct",
+    "code": 59912,
+    "hex": "ea08"
+}, {
+    "name": "dc",
+    "code": 59913,
+    "hex": "ea09"
+}, {
+    "name": "de",
+    "code": 59914,
+    "hex": "ea0a"
+}, {
+    "name": "fl",
+    "code": 59915,
+    "hex": "ea0b"
+}, {
+    "name": "ga",
+    "code": 59916,
+    "hex": "ea0c"
+}, {
+    "name": "hi",
+    "code": 59917,
+    "hex": "ea0d"
+}, {
+    "name": "ia",
+    "code": 59918,
+    "hex": "ea0e"
+}, {
+    "name": "id",
+    "code": 59919,
+    "hex": "ea0f"
+}, {
+    "name": "il",
+    "code": 59920,
+    "hex": "ea10"
+}, {
+    "name": "in",
+    "code": 59921,
+    "hex": "ea11"
+}, {
+    "name": "ks",
+    "code": 59922,
+    "hex": "ea12"
+}, {
+    "name": "ky",
+    "code": 59923,
+    "hex": "ea13"
+}, {
+    "name": "la",
+    "code": 59924,
+    "hex": "ea14"
+}, {
+    "name": "ma",
+    "code": 59925,
+    "hex": "ea15"
+}, {
+    "name": "md",
+    "code": 59926,
+    "hex": "ea16"
+}, {
+    "name": "me",
+    "code": 59927,
+    "hex": "ea17"
+}, {
+    "name": "mi",
+    "code": 59928,
+    "hex": "ea18"
+}, {
+    "name": "mn",
+    "code": 59929,
+    "hex": "ea19"
+}, {
+    "name": "mo",
+    "code": 59930,
+    "hex": "ea1a"
+}, {
+    "name": "ms",
+    "code": 59931,
+    "hex": "ea1b"
+}, {
+    "name": "mt",
+    "code": 59932,
+    "hex": "ea1c"
+}, {
+    "name": "nc",
+    "code": 59933,
+    "hex": "ea1d"
+}, {
+    "name": "nd",
+    "code": 59934,
+    "hex": "ea1e"
+}, {
+    "name": "ne",
+    "code": 59935,
+    "hex": "ea1f"
+}, {
+    "name": "nh",
+    "code": 59936,
+    "hex": "ea20"
+}, {
+    "name": "nj",
+    "code": 59937,
+    "hex": "ea21"
+}, {
+    "name": "nm",
+    "code": 59938,
+    "hex": "ea22"
+}, {
+    "name": "nv",
+    "code": 59939,
+    "hex": "ea23"
+}, {
+    "name": "ny",
+    "code": 59940,
+    "hex": "ea24"
+}, {
+    "name": "oh",
+    "code": 59941,
+    "hex": "ea25"
+}, {
+    "name": "ok",
+    "code": 59942,
+    "hex": "ea26"
+}, {
+    "name": "or",
+    "code": 59943,
+    "hex": "ea27"
+}, {
+    "name": "pa",
+    "code": 59944,
+    "hex": "ea28"
+}, {
+    "name": "pr",
+    "code": 59945,
+    "hex": "ea29"
+}, {
+    "name": "ri",
+    "code": 59946,
+    "hex": "ea2a"
+}, {
+    "name": "sc",
+    "code": 59947,
+    "hex": "ea2b"
+}, {
+    "name": "sd",
+    "code": 59948,
+    "hex": "ea2c"
+}, {
+    "name": "tn",
+    "code": 59949,
+    "hex": "ea2d"
+}, {
+    "name": "tx",
+    "code": 59950,
+    "hex": "ea2e"
+}, {
+    "name": "usa",
+    "code": 59951,
+    "hex": "ea2f"
+}, {
+    "name": "ut",
+    "code": 59952,
+    "hex": "ea30"
+}, {
+    "name": "va",
+    "code": 59953,
+    "hex": "ea31"
+}, {
+    "name": "vt",
+    "code": 59954,
+    "hex": "ea32"
+}, {
+    "name": "wa",
+    "code": 59955,
+    "hex": "ea33"
+}, {
+    "name": "wi",
+    "code": 59956,
+    "hex": "ea34"
+}, {
+    "name": "wv",
+    "code": 59957,
+    "hex": "ea35"
+}, {
+    "name": "wy",
+    "code": 59958,
+    "hex": "ea36"
+}]
