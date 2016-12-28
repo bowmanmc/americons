@@ -1,0 +1,5 @@
+<% for (var i = 0; i < icons.length; i++) { %>
+.am-<%= icons[i].name %>::before {
+    content: '\<%= icons[i].hex %>';
+}
+<% } %>
