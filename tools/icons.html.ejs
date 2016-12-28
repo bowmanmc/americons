@@ -1,0 +1,14 @@
+
+<section class="icons">
+
+<% for (var i = 0; i < icons.length; i++) { %>
+    <div class="icon">
+        <i class="am am-<%= icons[i].name %>"></i>
+        <div class="icon__meta">
+            <span class="icon__name"><%= icons[i].name %></span>
+            <span class="icon__code"><%= icons[i].hex %></span>
+        </div>
+    </div>
+<% } %>
+
+</section>
