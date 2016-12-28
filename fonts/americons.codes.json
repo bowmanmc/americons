@@ -23,163 +23,163 @@
     "code": 59910,
     "hex": "ea06"
 }, {
-    "name": "contiguous",
+    "name": "ct",
     "code": 59911,
     "hex": "ea07"
 }, {
-    "name": "ct",
+    "name": "dc",
     "code": 59912,
     "hex": "ea08"
 }, {
-    "name": "dc",
+    "name": "de",
     "code": 59913,
     "hex": "ea09"
 }, {
-    "name": "de",
+    "name": "fl",
     "code": 59914,
     "hex": "ea0a"
 }, {
-    "name": "fl",
+    "name": "ga",
     "code": 59915,
     "hex": "ea0b"
 }, {
-    "name": "ga",
+    "name": "hi",
     "code": 59916,
     "hex": "ea0c"
 }, {
-    "name": "hi",
+    "name": "ia",
     "code": 59917,
     "hex": "ea0d"
 }, {
-    "name": "ia",
+    "name": "id",
     "code": 59918,
     "hex": "ea0e"
 }, {
-    "name": "id",
+    "name": "il",
     "code": 59919,
     "hex": "ea0f"
 }, {
-    "name": "il",
+    "name": "in",
     "code": 59920,
     "hex": "ea10"
 }, {
-    "name": "in",
+    "name": "ks",
     "code": 59921,
     "hex": "ea11"
 }, {
-    "name": "ks",
+    "name": "ky",
     "code": 59922,
     "hex": "ea12"
 }, {
-    "name": "ky",
+    "name": "la",
     "code": 59923,
     "hex": "ea13"
 }, {
-    "name": "la",
+    "name": "ma",
     "code": 59924,
     "hex": "ea14"
 }, {
-    "name": "ma",
+    "name": "md",
     "code": 59925,
     "hex": "ea15"
 }, {
-    "name": "md",
+    "name": "me",
     "code": 59926,
     "hex": "ea16"
 }, {
-    "name": "me",
+    "name": "mi",
     "code": 59927,
     "hex": "ea17"
 }, {
-    "name": "mi",
+    "name": "mn",
     "code": 59928,
     "hex": "ea18"
 }, {
-    "name": "mn",
+    "name": "mo",
     "code": 59929,
     "hex": "ea19"
 }, {
-    "name": "mo",
+    "name": "ms",
     "code": 59930,
     "hex": "ea1a"
 }, {
-    "name": "ms",
+    "name": "mt",
     "code": 59931,
     "hex": "ea1b"
 }, {
-    "name": "mt",
+    "name": "nc",
     "code": 59932,
     "hex": "ea1c"
 }, {
-    "name": "nc",
+    "name": "nd",
     "code": 59933,
     "hex": "ea1d"
 }, {
-    "name": "nd",
+    "name": "ne",
     "code": 59934,
     "hex": "ea1e"
 }, {
-    "name": "ne",
+    "name": "nh",
     "code": 59935,
     "hex": "ea1f"
 }, {
-    "name": "nh",
+    "name": "nj",
     "code": 59936,
     "hex": "ea20"
 }, {
-    "name": "nj",
+    "name": "nm",
     "code": 59937,
     "hex": "ea21"
 }, {
-    "name": "nm",
+    "name": "nv",
     "code": 59938,
     "hex": "ea22"
 }, {
-    "name": "nv",
+    "name": "ny",
     "code": 59939,
     "hex": "ea23"
 }, {
-    "name": "ny",
+    "name": "oh",
     "code": 59940,
     "hex": "ea24"
 }, {
-    "name": "oh",
+    "name": "ok",
     "code": 59941,
     "hex": "ea25"
 }, {
-    "name": "ok",
+    "name": "or",
     "code": 59942,
     "hex": "ea26"
 }, {
-    "name": "or",
+    "name": "pa",
     "code": 59943,
     "hex": "ea27"
 }, {
-    "name": "pa",
+    "name": "pr",
     "code": 59944,
     "hex": "ea28"
 }, {
-    "name": "pr",
+    "name": "ri",
     "code": 59945,
     "hex": "ea29"
 }, {
-    "name": "ri",
+    "name": "sc",
     "code": 59946,
     "hex": "ea2a"
 }, {
-    "name": "sc",
+    "name": "sd",
     "code": 59947,
     "hex": "ea2b"
 }, {
-    "name": "sd",
+    "name": "tn",
     "code": 59948,
     "hex": "ea2c"
 }, {
-    "name": "tn",
+    "name": "tx",
     "code": 59949,
     "hex": "ea2d"
 }, {
-    "name": "tx",
+    "name": "usa-contiguous",
     "code": 59950,
     "hex": "ea2e"
 }, {

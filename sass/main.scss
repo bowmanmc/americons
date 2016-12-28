@@ -1,5 +1,9 @@
-
+/**
+ * Americons
+ */
 @import 'fontface';
+@import 'icons';
+
 
 .am {
     -moz-osx-font-smoothing: grayscale;
@@ -9,12 +13,4 @@
     font-size: inherit;
     font-style: normal;
     text-rendering: auto;
-}
-
-.am-usa::before {
-    content: '\ea07';
-}
-
-.am-oh::before {
-    content: '\ea25';
 }
