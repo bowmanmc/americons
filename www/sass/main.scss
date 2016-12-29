@@ -7,9 +7,13 @@
 
 // Defaults
 @import 'defaults/colors';
+@import 'defaults/layout';
+@import 'defaults/content';
+
 
 // Components
 @import 'components/header';
+@import 'components/icons';
 @import 'components/navigation';
 
 // Pages

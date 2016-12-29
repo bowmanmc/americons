@@ -1,9 +1,174 @@
+/**
+ * Americons
+ */
 @font-face {
   font-family: 'Americons';
   font-style: normal;
   font-weight: normal;
-  src: url("/americons/fonts/americons.eot?#iefix");
-  src: url("/americons/fonts/americons.eot?#iefix") format("embedded-opentype"), url("/americons/fonts/americons.woff2") format("woff2"), url("/americons/fonts/americons.woff") format("woff"), url("/americons/fonts/americons.ttf") format("truetype"), url("/americons/fonts/americons.svg") format("svg"); }
+  src: url("../fonts/americons.eot?#iefix");
+  src: url("../fonts/americons.eot?#iefix") format("embedded-opentype"), url("../fonts/americons.woff2") format("woff2"), url("../fonts/americons.woff") format("woff"), url("../fonts/americons.ttf") format("truetype"), url("../fonts/americons.svg") format("svg"); }
+
+.am-ak::before {
+  content: '\ea01'; }
+
+.am-al::before {
+  content: '\ea02'; }
+
+.am-ar::before {
+  content: '\ea03'; }
+
+.am-az::before {
+  content: '\ea04'; }
+
+.am-ca::before {
+  content: '\ea05'; }
+
+.am-co::before {
+  content: '\ea06'; }
+
+.am-ct::before {
+  content: '\ea07'; }
+
+.am-dc::before {
+  content: '\ea08'; }
+
+.am-de::before {
+  content: '\ea09'; }
+
+.am-fl::before {
+  content: '\ea0a'; }
+
+.am-ga::before {
+  content: '\ea0b'; }
+
+.am-hi::before {
+  content: '\ea0c'; }
+
+.am-ia::before {
+  content: '\ea0d'; }
+
+.am-id::before {
+  content: '\ea0e'; }
+
+.am-il::before {
+  content: '\ea0f'; }
+
+.am-in::before {
+  content: '\ea10'; }
+
+.am-ks::before {
+  content: '\ea11'; }
+
+.am-ky::before {
+  content: '\ea12'; }
+
+.am-la::before {
+  content: '\ea13'; }
+
+.am-ma::before {
+  content: '\ea14'; }
+
+.am-md::before {
+  content: '\ea15'; }
+
+.am-me::before {
+  content: '\ea16'; }
+
+.am-mi::before {
+  content: '\ea17'; }
+
+.am-mn::before {
+  content: '\ea18'; }
+
+.am-mo::before {
+  content: '\ea19'; }
+
+.am-ms::before {
+  content: '\ea1a'; }
+
+.am-mt::before {
+  content: '\ea1b'; }
+
+.am-nc::before {
+  content: '\ea1c'; }
+
+.am-nd::before {
+  content: '\ea1d'; }
+
+.am-ne::before {
+  content: '\ea1e'; }
+
+.am-nh::before {
+  content: '\ea1f'; }
+
+.am-nj::before {
+  content: '\ea20'; }
+
+.am-nm::before {
+  content: '\ea21'; }
+
+.am-nv::before {
+  content: '\ea22'; }
+
+.am-ny::before {
+  content: '\ea23'; }
+
+.am-oh::before {
+  content: '\ea24'; }
+
+.am-ok::before {
+  content: '\ea25'; }
+
+.am-or::before {
+  content: '\ea26'; }
+
+.am-pa::before {
+  content: '\ea27'; }
+
+.am-pr::before {
+  content: '\ea28'; }
+
+.am-ri::before {
+  content: '\ea29'; }
+
+.am-sc::before {
+  content: '\ea2a'; }
+
+.am-sd::before {
+  content: '\ea2b'; }
+
+.am-tn::before {
+  content: '\ea2c'; }
+
+.am-tx::before {
+  content: '\ea2d'; }
+
+.am-usa-contiguous::before {
+  content: '\ea2e'; }
+
+.am-usa::before {
+  content: '\ea2f'; }
+
+.am-ut::before {
+  content: '\ea30'; }
+
+.am-va::before {
+  content: '\ea31'; }
+
+.am-vt::before {
+  content: '\ea32'; }
+
+.am-wa::before {
+  content: '\ea33'; }
+
+.am-wi::before {
+  content: '\ea34'; }
+
+.am-wv::before {
+  content: '\ea35'; }
+
+.am-wy::before {
+  content: '\ea36'; }
 
 .am {
   -moz-osx-font-smoothing: grayscale;
@@ -13,11 +178,5 @@
   font-size: inherit;
   font-style: normal;
   text-rendering: auto; }
-
-.am-usa::before {
-  content: '\ea07'; }
-
-.am-oh::before {
-  content: '\ea25'; }
 
 /*# sourceMappingURL=americons.css.map */

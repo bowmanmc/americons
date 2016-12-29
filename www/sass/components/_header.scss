@@ -1,7 +1,12 @@
 
 .header {
-    background: linear-gradient(to right, $clr-headerbg1 50%, $clr-headerbg2 0);
-    background-size: 64px 100%;
-    font-size: 96px;
-    padding-top: 200px;
+    background: $clr-headerbg;
+    color: $clr-headertxt;
+    font-size: 128px;
+    padding: 64px;
+}
+
+.headline {
+    margin: 0 auto;
+    max-width: $content-max-width;
 }

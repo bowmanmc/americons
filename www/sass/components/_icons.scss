@@ -1,0 +1,20 @@
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon {
+    margin: 0.5em;
+    text-align: center;
+    width: 128px;
+
+    .am {
+        font-size: 96px;
+    }
+}
+
+.icon__name {
+    display: block;
+    font-weight: bold;
+}

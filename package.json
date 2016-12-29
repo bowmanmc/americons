@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "jekyll": "jekyll build --incremental --source www --destination site",
-    "prestart": "npm-run-all fonts:sass copy2www",
+    "prestart": "npm-run-all templates fonts:sass copy2www",
     "precopy2www": "rimraf www/americons",
     "copy2www": "node tools/copy2www.js",
     "lint:sass": "sass-lint -c .sass-lint.yml -v",
@@ -15,7 +15,7 @@
     "start": "npm-run-all --parallel server:dev watch",
     "server:dev": "babel-node tools/runBrowserSync.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "fonts": "npm-run-all fonts:fonts fonts:version",
+    "fonts": "npm-run-all fonts:fonts fonts:version templates",
     "prefonts:fonts": "rimraf fonts",
     "fonts:fonts": "gulp fonts",
     "fonts:version": "node tools/generateVersionTxt.js",
