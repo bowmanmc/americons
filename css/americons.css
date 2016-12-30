@@ -9,166 +9,166 @@
   src: url("../fonts/americons.eot?#iefix") format("embedded-opentype"), url("../fonts/americons.woff2") format("woff2"), url("../fonts/americons.woff") format("woff"), url("../fonts/americons.ttf") format("truetype"), url("../fonts/americons.svg") format("svg"); }
 
 .am-ak::before {
-  content: '\ea01'; }
+  content: '\f300'; }
 
 .am-al::before {
-  content: '\ea02'; }
+  content: '\f301'; }
 
 .am-ar::before {
-  content: '\ea03'; }
+  content: '\f302'; }
 
 .am-az::before {
-  content: '\ea04'; }
+  content: '\f303'; }
 
 .am-ca::before {
-  content: '\ea05'; }
+  content: '\f304'; }
 
 .am-co::before {
-  content: '\ea06'; }
+  content: '\f305'; }
 
 .am-ct::before {
-  content: '\ea07'; }
+  content: '\f306'; }
 
 .am-dc::before {
-  content: '\ea08'; }
+  content: '\f307'; }
 
 .am-de::before {
-  content: '\ea09'; }
+  content: '\f308'; }
 
 .am-fl::before {
-  content: '\ea0a'; }
+  content: '\f309'; }
 
 .am-ga::before {
-  content: '\ea0b'; }
+  content: '\f30a'; }
 
 .am-hi::before {
-  content: '\ea0c'; }
+  content: '\f30b'; }
 
 .am-ia::before {
-  content: '\ea0d'; }
+  content: '\f30c'; }
 
 .am-id::before {
-  content: '\ea0e'; }
+  content: '\f30d'; }
 
 .am-il::before {
-  content: '\ea0f'; }
+  content: '\f30e'; }
 
 .am-in::before {
-  content: '\ea10'; }
+  content: '\f30f'; }
 
 .am-ks::before {
-  content: '\ea11'; }
+  content: '\f310'; }
 
 .am-ky::before {
-  content: '\ea12'; }
+  content: '\f311'; }
 
 .am-la::before {
-  content: '\ea13'; }
+  content: '\f312'; }
 
 .am-ma::before {
-  content: '\ea14'; }
+  content: '\f313'; }
 
 .am-md::before {
-  content: '\ea15'; }
+  content: '\f314'; }
 
 .am-me::before {
-  content: '\ea16'; }
+  content: '\f315'; }
 
 .am-mi::before {
-  content: '\ea17'; }
+  content: '\f316'; }
 
 .am-mn::before {
-  content: '\ea18'; }
+  content: '\f317'; }
 
 .am-mo::before {
-  content: '\ea19'; }
+  content: '\f318'; }
 
 .am-ms::before {
-  content: '\ea1a'; }
+  content: '\f319'; }
 
 .am-mt::before {
-  content: '\ea1b'; }
+  content: '\f31a'; }
 
 .am-nc::before {
-  content: '\ea1c'; }
+  content: '\f31b'; }
 
 .am-nd::before {
-  content: '\ea1d'; }
+  content: '\f31c'; }
 
 .am-ne::before {
-  content: '\ea1e'; }
+  content: '\f31d'; }
 
 .am-nh::before {
-  content: '\ea1f'; }
+  content: '\f31e'; }
 
 .am-nj::before {
-  content: '\ea20'; }
+  content: '\f31f'; }
 
 .am-nm::before {
-  content: '\ea21'; }
+  content: '\f320'; }
 
 .am-nv::before {
-  content: '\ea22'; }
+  content: '\f321'; }
 
 .am-ny::before {
-  content: '\ea23'; }
+  content: '\f322'; }
 
 .am-oh::before {
-  content: '\ea24'; }
+  content: '\f323'; }
 
 .am-ok::before {
-  content: '\ea25'; }
+  content: '\f324'; }
 
 .am-or::before {
-  content: '\ea26'; }
+  content: '\f325'; }
 
 .am-pa::before {
-  content: '\ea27'; }
+  content: '\f326'; }
 
 .am-pr::before {
-  content: '\ea28'; }
+  content: '\f327'; }
 
 .am-ri::before {
-  content: '\ea29'; }
+  content: '\f328'; }
 
 .am-sc::before {
-  content: '\ea2a'; }
+  content: '\f329'; }
 
 .am-sd::before {
-  content: '\ea2b'; }
+  content: '\f32a'; }
 
 .am-tn::before {
-  content: '\ea2c'; }
+  content: '\f32b'; }
 
 .am-tx::before {
-  content: '\ea2d'; }
+  content: '\f32c'; }
 
 .am-usa-contiguous::before {
-  content: '\ea2e'; }
+  content: '\f32d'; }
 
 .am-usa::before {
-  content: '\ea2f'; }
+  content: '\f32e'; }
 
 .am-ut::before {
-  content: '\ea30'; }
+  content: '\f32f'; }
 
 .am-va::before {
-  content: '\ea31'; }
+  content: '\f330'; }
 
 .am-vt::before {
-  content: '\ea32'; }
+  content: '\f331'; }
 
 .am-wa::before {
-  content: '\ea33'; }
+  content: '\f332'; }
 
 .am-wi::before {
-  content: '\ea34'; }
+  content: '\f333'; }
 
 .am-wv::before {
-  content: '\ea35'; }
+  content: '\f334'; }
 
 .am-wy::before {
-  content: '\ea36'; }
+  content: '\f335'; }
 
 .am {
   -moz-osx-font-smoothing: grayscale;

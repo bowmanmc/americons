@@ -5,8 +5,10 @@
     <div class="icon">
         <i class="am am-<%= icons[i].name %>"></i>
         <div class="icon__meta">
-            <span class="icon__name"><%= icons[i].name %></span>
-            <span class="icon__code"><%= icons[i].hex %></span>
+            <div class="icon__name"><%= icons[i].name %></div>
+            <div class="icon__html">
+                &lt;i class="am am-<%= icons[i].name %>"&gt;&lt;/i&gt;
+            </div>
         </div>
     </div>
 <% } %>

@@ -6,7 +6,7 @@ Description: SVGs and Icon Font for the geographic boundaries of the United Stat
 URL: https://github.com/bowmanmc/americons
 Version: 1.0.0
 Git Branch: master
-Git Revision: d4b868e3ebfe866787d4a78e1e2fcf6ae11c78c0
-Build Time: 2016-12-29 19:57:56
+Git Revision: 136286ed15797ee66559c06a0bc595f56c31cdd6
+Build Time: 2016-12-30 17:13:10
 Build Host: krypto.local [darwin]
 
