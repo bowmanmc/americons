@@ -6,9 +6,8 @@ permalink: /
 
 <a id="getstarted" />
 # Get Started
-
 You can get Americons via the releases page on GitHub or via NPM:
-<pre class="line-numbers"><code class="language-bash">npm install --save americons</code></pre>
+<pre><code class="language-bash">npm install --save americons</code></pre>
 
 Our releases are packaged with the following contents:
 - css - The CSS for Americons (generated from the sass source).
@@ -17,5 +16,10 @@ Our releases are packaged with the following contents:
 - svg - SVG files used to generate the icon fonts.
 
 
+<a id="icons" />
 # Icons
 {% include icons.html %}
+
+
+<a id="about" />
+# About
