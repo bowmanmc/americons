@@ -4,6 +4,9 @@
 @import 'normalize.css/normalize';
 @import 'bourbon/bourbon';
 @import 'neat/neat';
+@import 'prismjs/themes/prism';
+@import 'prismjs/themes/prism-twilight';
+@import 'prismjs/plugins/line-numbers/prism-line-numbers';
 
 // Defaults
 @import 'defaults/colors';

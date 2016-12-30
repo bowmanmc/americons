@@ -12,6 +12,7 @@
     "presass": "npm-run-all fonts:sass lint:sass",
     "sass": "node-sass --source-map true --include-path www/sass --include-path node_modules www/sass/main.scss www/styles/bundle.css",
     "postsass": "postcss -c postcss.www.config.json",
+    "js": "webpack -d --progress --colors",
     "start": "npm-run-all --parallel server:dev watch",
     "server:dev": "babel-node tools/runBrowserSync.js",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,11 +21,12 @@
     "fonts:fonts": "gulp fonts",
     "fonts:version": "node tools/generateVersionTxt.js",
     "prefonts:sass": "npm-run-all lint:sass",
-    "fonts:sass": "node-sass --source-map true --include-path sass sass/main.scss css/americons.css",
+    "fonts:sass": "node-sass --source-map true --include-path sass sass/americons.scss css/americons.css",
     "postfonts:sass": "postcss -c postcss.americons.config.json",
     "templates": "node tools/applyTemplates.js",
-    "watch": "npm-run-all --parallel watch:jekyll watch:sass",
-    "watch:jekyll": "nodemon -w www -e html,md,png,jpg,gif,svg,yml,xml,js,css --ignore www/sass --delay 1 -x \"npm run jekyll\"",
+    "watch": "npm-run-all --parallel watch:jekyll watch:sass watch:js",
+    "watch:jekyll": "nodemon -w www -e html,md,png,jpg,gif,svg,yml,xml,js,css --ignore www/sass --ignore www/javascript --delay 2 -x \"npm run jekyll\"",
+    "watch:js": "nodemon -w www/javascript -e js -x \"npm run js\"",
     "watch:sass": "nodemon -e scss -w www/sass -x \"npm run sass\""
   },
   "repository": {
@@ -61,12 +63,14 @@
     "normalize.css": "^5.0.0",
     "npm-run-all": "^3.1.2",
     "postcss-cli": "^2.6.0",
+    "prismjs": "^1.6.0",
     "rimraf": "^2.5.4",
     "sass-lint": "^1.10.2",
     "shapefile": "^0.5.9",
     "svgo": "^0.7.1",
     "sync-exec": "^0.6.2",
-    "unzip": "^0.1.11"
+    "unzip": "^0.1.11",
+    "webpack": "^1.14.0"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",

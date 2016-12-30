@@ -5,9 +5,11 @@
     padding: 1.0em 2.0em;
     position: fixed;
     width: 100%;
+    z-index: 100;
 
     a {
         color: $clr-off-white;
+        margin: 0 0.5em;
         text-decoration: none;
 
         &:hover {
