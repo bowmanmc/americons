@@ -23,3 +23,7 @@ Our releases are packaged with the following contents:
 
 <a id="about" />
 # About
+Americons was developed by
+[Michael Bowman](https://github.com/bowmanmc). Please report any issues or
+(even better) patches and pull requests to
+[Americons on GitHub](https://github.com/bowmanmc/americons).

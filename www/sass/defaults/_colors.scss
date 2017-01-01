@@ -8,6 +8,9 @@ $clr-white: #fff;
 
 $clr-gray: #777777;
 
+$clr-link-out: darken($clr-red, 10%);
+$clr-link-over: $clr-red;
+
 // navigation
 $clr-navbg: $clr-blue-dark;
 $clr_navtxt: $clr-off-white;

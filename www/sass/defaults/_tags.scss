@@ -15,3 +15,13 @@ h6 {
     font-family: $fontstack-headings;
     font-weight: bold;
 }
+
+a {
+    color: $clr-link-out;
+    text-decoration: none;
+
+    &:hover {
+        color: $clr-link-over;
+        text-decoration: underline;
+    }
+}
