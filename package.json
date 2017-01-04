@@ -4,11 +4,13 @@
   "description": "SVGs and Icon Font for the geographic boundaries of the United States",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages-deploy",
+    "prebuildsite": "rimraf site",
+    "buildsite": "npm-run-all templates fonts:sass copy2www sass js jekyll",
     "dist:clean": "rimraf americons",
     "predist": "npm-run-all dist:clean fonts:sass fonts",
     "dist": "node tools/makeDist.js",
     "jekyll": "jekyll build --incremental --source www --destination site",
-    "prestart": "npm-run-all templates fonts:sass copy2www",
     "precopy2www": "rimraf www/americons",
     "copy2www": "node tools/copy2www.js",
     "lint:sass": "sass-lint -c .sass-lint.yml -v",
@@ -16,6 +18,7 @@
     "sass": "node-sass --source-map true --include-path www/sass --include-path node_modules www/sass/main.scss www/styles/bundle.css",
     "postsass": "postcss -c postcss.www.config.json",
     "js": "webpack -d --progress --colors",
+    "prestart": "npm-run-all templates fonts:sass copy2www",
     "start": "npm-run-all --parallel server:dev watch",
     "server:dev": "babel-node tools/runBrowserSync.js",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -31,6 +34,13 @@
     "watch:jekyll": "nodemon -w www -e html,md,png,jpg,gif,svg,yml,xml,js,css --ignore www/sass --ignore www/javascript --delay 2 -x \"npm run jekyll\"",
     "watch:js": "nodemon -w www/javascript -e js -x \"npm run js\"",
     "watch:sass": "nodemon -e scss -w www/sass -x \"npm run sass\""
+  },
+  "gh-pages-deploy": {
+    "staticpath": "site",
+    "prep": [
+      "buildsite"
+    ],
+    "noprompt": true
   },
   "repository": {
     "type": "git",
@@ -83,6 +93,7 @@
     "babel-preset-es2015": "^6.18.0",
     "browser-sync": "^2.18.5",
     "copy-dir": "^0.3.0",
+    "gh-pages-deploy": "^0.4.2",
     "nodemon": "^1.11.0",
     "webpack": "^1.14.0"
   }
