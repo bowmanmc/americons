@@ -5,7 +5,7 @@ const mkdirp = require('mkdirp');
 const rename = require('gulp-rename');
 
 const FONT_NAME = 'americons';
-const FONT_DIR = 'fonts';
+const FONT_DIR = 'src/font/fonts';
 const RUN_TIME = Math.round(Date.now()/1000);
 
 
@@ -14,7 +14,7 @@ gulp.task('fonts', function() {
 
     let outFile = `${FONT_DIR}/americons.codes.json`;
 
-    return gulp.src([`svg/*.svg`])
+    return gulp.src([`src/font/svg/*.svg`])
         .pipe(iconfont({
             fontName: FONT_NAME,
             prependUnicode: false,

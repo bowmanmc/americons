@@ -39,10 +39,5 @@ jspm_packages
 .node_repl_history
 
 # Output directories
-json
-shp
-svgraw
-site
-www/americons
-www/styles
-dist
+src/font/css
+src/site/americons
