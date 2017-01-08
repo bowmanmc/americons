@@ -4,7 +4,11 @@
   "description": "SVGs and Icon Font for the geographic boundaries of the United States",
   "main": "index.js",
   "scripts": {
-      "fonts": "node tools/makeFonts.js"
+      "fonts": "node tools/makeFonts.js",
+      "postfonts": "npm run fonts:sass",
+      "prefonts:sass": "sass-lint -c .sass-lint.yml -v",
+      "fonts:sass": "node-sass --source-map true --include-path src/font/sass src/font/sass/americons.scss src/font/css/americons.css",
+      "postfonts:sass": "postcss -c src/font/postcss.config.json"
   },
   "gh-pages-deploy": {
     "staticpath": "site",

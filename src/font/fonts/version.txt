@@ -1,0 +1,12 @@
+
+Americons
+===================
+Name: americons
+Description: SVGs and Icon Font for the geographic boundaries of the United States
+URL: https://github.com/bowmanmc/americons
+Version: 1.0.1
+Git Branch: master
+Git Revision: fcb0320ccc28e0a1d2dba904ce0271a5e9002b7d
+Build Time: 2017-01-06 20:41:22
+Build Host: krypto.local [darwin]
+
