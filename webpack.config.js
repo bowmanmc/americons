@@ -4,11 +4,11 @@ var webpack = require('webpack');
 var NODE_MODULES = __dirname + '/node_modules';
 
 module.exports = {
-    context: __dirname + '/www/javascript',
+    context: __dirname + '/src/site/javascript',
     entry: './index.js',
     output: {
-        path: __dirname + '/www/scripts',
-        filename: 'site.js'
+        path: __dirname + '/src/site/scripts',
+        filename: 'bundle.min.js'
     },
     module: {
         loaders: [{
@@ -17,13 +17,9 @@ module.exports = {
             loader: 'babel-loader'
         }]
     },
-    // plugins: [
-    //     new webpack.ProvidePlugin({
-    //         '$': 'jquery',
-    //         'jQuery': 'jquery',
-    //         'window.jQuery': 'jquery'
-    //     })
-    // ],
+    plugins: [
+        new webpack.optimize.UglifyJsPlugin()
+    ],
     resolve: {
         alias: {
             // jquery: NODE_MODULES + '/jquery/dist/jquery.js'

@@ -41,3 +41,5 @@ jspm_packages
 # Output directories
 src/font/css
 src/site/americons
+src/site/styles/bundle*
+build
