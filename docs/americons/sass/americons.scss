@@ -1,0 +1,16 @@
+//
+// Americons
+//
+@import 'fontface';
+@import 'icons';
+
+
+.am {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-family: Americons;
+    font-size: inherit;
+    font-style: normal;
+    text-rendering: auto;
+}
