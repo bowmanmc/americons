@@ -28,6 +28,7 @@
       "start": "npm-run-all --parallel server:dev watch"
   },
   "gh-pages-deploy": {
+    "cname": "americons.us",
     "staticpath": "build",
     "prep": [
       "build:site"
