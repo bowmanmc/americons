@@ -1,7 +1,4 @@
 
-    "deploy": "gh-pages-deploy",
-    "prebuildsite": "rimraf site",
-    "buildsite": "npm-run-all templates fonts:sass copy2www sass js jekyll",
     "dist:clean": "rimraf americons",
     "predist": "npm-run-all dist:clean fonts:sass fonts",
     "dist": "node tools/makeDist.js",

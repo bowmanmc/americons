@@ -20,13 +20,17 @@
       "watch:js": "nodemon -w src/site/javascript -e js -x \"npm run js\"",
       "watch:sass": "nodemon -e scss -w src/site/sass -x \"npm run sass\"",
       "server:dev": "babel-node tools/runBrowserSync.js",
-      "prestart": "babel-node tools/copy2site.js",
+      "copy:americons": "babel-node tools/copy2site.js",
+      "prebuild:site": "rimraf build",
+      "build:site": "npm-run-all copy:americons sass js jekyll",
+      "deploy": "gh-pages-deploy",
+      "prestart": "npm run copy:americons",
       "start": "npm-run-all --parallel server:dev watch"
   },
   "gh-pages-deploy": {
-    "staticpath": "site",
+    "staticpath": "build",
     "prep": [
-      "buildsite"
+      "build:site"
     ],
     "noprompt": true
   },
