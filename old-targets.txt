@@ -1,4 +1,0 @@
-
-    "dist:clean": "rimraf americons",
-    "predist": "npm-run-all dist:clean fonts:sass fonts",
-    "dist": "node tools/makeDist.js",
