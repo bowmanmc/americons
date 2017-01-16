@@ -13,28 +13,28 @@ const os = require('os');
 const rimraf = require('rimraf');
 
 const pkg = require('../package.json');
-const FONTS_DIR = './src/font/fonts';
+const FONTS_DIR = './fonts';
 
 
 console.log(`Cleaning ${FONTS_DIR}...`);
 rimraf.sync(FONTS_DIR);
 
 function generateScss() {
-    const codes = JSON.parse(fs.readFileSync('src/font/fonts/americons.codes.json', 'utf8'));
+    const codes = JSON.parse(fs.readFileSync('fonts/americons.codes.json', 'utf8'));
     const template = fs.readFileSync('tools/_icons.scss.ejs', 'utf8');
     const output = ejs.render(template, {
         icons: codes
     });
-    fs.writeFileSync('src/font/sass/_icons.scss', output);
+    fs.writeFileSync('sass/_icons.scss', output);
 }
 
 function generateHtml() {
-    const codes = JSON.parse(fs.readFileSync('src/font/fonts/americons.codes.json', 'utf8'));
+    const codes = JSON.parse(fs.readFileSync('fonts/americons.codes.json', 'utf8'));
     const template = fs.readFileSync('tools/icons.html.ejs', 'utf8');
     const output = ejs.render(template, {
         icons: codes
     });
-    fs.writeFileSync('src/site/_includes/icons.html', output);
+    fs.writeFileSync('docs/_includes/icons.html', output);
 }
 
 require('./gulpfile.js');

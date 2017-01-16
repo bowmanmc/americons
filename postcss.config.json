@@ -1,6 +1,6 @@
 {
-    "input": "src/font/css/americons.css",
-    "output": "src/font/css/americons.min.css",
+    "input": "css/americons.css",
+    "output": "css/americons.min.css",
     "use": [
         "autoprefixer",
         "cssnano"

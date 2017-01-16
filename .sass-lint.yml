@@ -1,11 +1,11 @@
 # Sass Lint Documentation: https://github.com/sasstools/sass-lint
 files:
     include:
-        - 'src/font/sass/**/*.s+(a|c)ss'
-        - 'src/site/sass/**/*.s+(a|c)ss'
+        - 'sass/**/*.s+(a|c)ss'
+        - 'docs/sass/**/*.s+(a|c)ss'
     ignore:
-        - 'src/site/sass/bourbon/**'
-        - 'src/site/sass/neat/**'
+        - 'docs/sass/bourbon/**'
+        - 'docs/sass/neat/**'
         - '**/_fontface.scss'
 rules:
     # Extends
