@@ -2,7 +2,7 @@ const copydir = require('copy-dir');
 const mkdirp = require('mkdirp');
 
 const IN_DIR = 'src/font';
-const OUT_DIR = 'src/site/americons';
+const OUT_DIR = 'docs/americons';
 const folders = ['css', 'fonts', 'sass', 'svg'];
 
 mkdirp.sync(OUT_DIR);

@@ -4,10 +4,10 @@ var webpack = require('webpack');
 var NODE_MODULES = __dirname + '/node_modules';
 
 module.exports = {
-    context: __dirname + '/src/site/javascript',
+    context: __dirname + '/docs/javascript',
     entry: './index.js',
     output: {
-        path: __dirname + '/src/site/scripts',
+        path: __dirname + '/docs/scripts',
         filename: 'bundle.min.js'
     },
     module: {
