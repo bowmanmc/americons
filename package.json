@@ -28,14 +28,6 @@
       "prestart": "npm-run-all clean:build copy:americons sass js jekyll",
       "start": "npm-run-all --parallel server:dev watch"
   },
-  "gh-pages-deploy": {
-    "cname": "americons.us",
-    "staticpath": "build",
-    "prep": [
-      "build:site"
-    ],
-    "noprompt": true
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bowmanmc/americons.git"
@@ -87,7 +79,6 @@
     "babel-preset-es2015": "^6.18.0",
     "browser-sync": "^2.18.5",
     "copy-dir": "^0.3.0",
-    "gh-pages-deploy": "^0.4.2",
     "nodemon": "^1.11.0",
     "webpack": "^1.14.0"
   }
