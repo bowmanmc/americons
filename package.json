@@ -24,7 +24,8 @@
       "prebuild:site": "rimraf build",
       "build:site": "npm-run-all copy:americons sass js jekyll",
       "deploy": "gh-pages-deploy",
-      "prestart": "npm run copy:americons",
+      "clean:build": "rimraf build",
+      "prestart": "npm-run-all clean:build copy:americons sass js jekyll",
       "start": "npm-run-all --parallel server:dev watch"
   },
   "gh-pages-deploy": {

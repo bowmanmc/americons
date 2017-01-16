@@ -1,6 +1,6 @@
 {
-    "input": "src/site/styles/bundle.css",
-    "output": "src/site/styles/bundle.min.css",
+    "input": "docs/styles/bundle.css",
+    "output": "docs/styles/bundle.min.css",
     "use": [
         "autoprefixer",
         "cssnano"
