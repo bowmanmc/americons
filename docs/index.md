@@ -10,10 +10,12 @@ You can get Americons via the releases page on GitHub or via NPM:
 <pre><code class="language-bash">npm install --save americons</code></pre>
 
 Our releases are packaged with the following contents:
-- css - The CSS for Americons (generated from the sass source).
-- fonts - The fonts used for Americons.
-- sass - The sass source code for Americons (you can use this instead of the compiled CSS if you prefer).
-- svg - SVG files used to generate the icon fonts.
+<ul>
+    <li><strong>css</strong> - The CSS for Americons (generated from the sass source).</li>
+    <li><strong>fonts</strong> - The fonts used for Americons.</li>
+    <li><strong>sass</strong> - The sass source code for Americons (you can use this instead of the compiled CSS if you prefer).</li>
+    <li><strong>svg</strong> - SVG files used to generate the icon fonts.</li>
+</ul>
 
 
 <a id="icons" />
