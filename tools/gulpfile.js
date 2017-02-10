@@ -14,7 +14,7 @@ gulp.task('fonts', function() {
 
     let outFile = `${FONT_DIR}/americons.codes.json`;
 
-    return gulp.src([`svg/*.svg`])
+    return gulp.src([`svg/icons/*.svg`])
         .pipe(iconfont({
             fontName: FONT_NAME,
             prependUnicode: false,

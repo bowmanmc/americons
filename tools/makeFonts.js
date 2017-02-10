@@ -1,9 +1,3 @@
-/*
-"lint:sass": "sass-lint -c .sass-lint.yml -v",
-"prefonts:sass": "npm-run-all lint:sass",
-"fonts:sass": "node-sass --source-map true --include-path sass sass/americons.scss css/americons.css",
-"postfonts:sass": "postcss -c postcss.americons.config.json",
-*/
 const ejs = require('ejs');
 const execSync = require('sync-exec');
 const fs = require('fs');

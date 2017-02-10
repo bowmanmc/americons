@@ -35,137 +35,143 @@
 .am-fl::before {
   content: '\f309'; }
 
-.am-ga::before {
+.am-flag-alt::before {
   content: '\f30a'; }
 
-.am-hi::before {
+.am-flag::before {
   content: '\f30b'; }
 
-.am-ia::before {
+.am-ga::before {
   content: '\f30c'; }
 
-.am-id::before {
+.am-hi::before {
   content: '\f30d'; }
 
-.am-il::before {
+.am-ia::before {
   content: '\f30e'; }
 
-.am-in::before {
+.am-id::before {
   content: '\f30f'; }
 
-.am-ks::before {
+.am-il::before {
   content: '\f310'; }
 
-.am-ky::before {
+.am-in::before {
   content: '\f311'; }
 
-.am-la::before {
+.am-ks::before {
   content: '\f312'; }
 
-.am-ma::before {
+.am-ky::before {
   content: '\f313'; }
 
-.am-md::before {
+.am-la::before {
   content: '\f314'; }
 
-.am-me::before {
+.am-ma::before {
   content: '\f315'; }
 
-.am-mi::before {
+.am-md::before {
   content: '\f316'; }
 
-.am-mn::before {
+.am-me::before {
   content: '\f317'; }
 
-.am-mo::before {
+.am-mi::before {
   content: '\f318'; }
 
-.am-ms::before {
+.am-mn::before {
   content: '\f319'; }
 
-.am-mt::before {
+.am-mo::before {
   content: '\f31a'; }
 
-.am-nc::before {
+.am-ms::before {
   content: '\f31b'; }
 
-.am-nd::before {
+.am-mt::before {
   content: '\f31c'; }
 
-.am-ne::before {
+.am-nc::before {
   content: '\f31d'; }
 
-.am-nh::before {
+.am-nd::before {
   content: '\f31e'; }
 
-.am-nj::before {
+.am-ne::before {
   content: '\f31f'; }
 
-.am-nm::before {
+.am-nh::before {
   content: '\f320'; }
 
-.am-nv::before {
+.am-nj::before {
   content: '\f321'; }
 
-.am-ny::before {
+.am-nm::before {
   content: '\f322'; }
 
-.am-oh::before {
+.am-nv::before {
   content: '\f323'; }
 
-.am-ok::before {
+.am-ny::before {
   content: '\f324'; }
 
-.am-or::before {
+.am-oh::before {
   content: '\f325'; }
 
-.am-pa::before {
+.am-ok::before {
   content: '\f326'; }
 
-.am-pr::before {
+.am-or::before {
   content: '\f327'; }
 
-.am-ri::before {
+.am-pa::before {
   content: '\f328'; }
 
-.am-sc::before {
+.am-pr::before {
   content: '\f329'; }
 
-.am-sd::before {
+.am-ri::before {
   content: '\f32a'; }
 
-.am-tn::before {
+.am-sc::before {
   content: '\f32b'; }
 
-.am-tx::before {
+.am-sd::before {
   content: '\f32c'; }
 
-.am-usa-contiguous::before {
+.am-tn::before {
   content: '\f32d'; }
 
-.am-usa::before {
+.am-tx::before {
   content: '\f32e'; }
 
-.am-ut::before {
+.am-usa-contiguous::before {
   content: '\f32f'; }
 
-.am-va::before {
+.am-usa::before {
   content: '\f330'; }
 
-.am-vt::before {
+.am-ut::before {
   content: '\f331'; }
 
-.am-wa::before {
+.am-va::before {
   content: '\f332'; }
 
-.am-wi::before {
+.am-vt::before {
   content: '\f333'; }
 
-.am-wv::before {
+.am-wa::before {
   content: '\f334'; }
 
-.am-wy::before {
+.am-wi::before {
   content: '\f335'; }
+
+.am-wv::before {
+  content: '\f336'; }
+
+.am-wy::before {
+  content: '\f337'; }
 
 .am {
   -moz-osx-font-smoothing: grayscale;
