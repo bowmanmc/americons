@@ -1,12 +1,18 @@
 
 .header {
-    background: $clr-headerbg;
+    align-items: center;
+    background: $clr-headerbg url(../images/sparkler.jpg) no-repeat center center fixed;
+    background-size: cover;
     color: $clr-headertxt;
+    display: flex;
     font-size: 128px;
-    padding: 64px;
+    height: 90%;
+    justify-content: center;
+    min-height: 90%;
 }
 
 .headline {
     margin: 0 auto;
     max-width: $content-max-width;
+    text-shadow: 2px 2px 0 #000;
 }

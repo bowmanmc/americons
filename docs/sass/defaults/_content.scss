@@ -1,5 +1,6 @@
 
 .content {
-    margin: 0 auto;
-    max-width: $content-max-width;
+    border-top: 1px solid $clr-white;
+    box-shadow: 0 0 1.0em rgba(#000, 0.25);
+    padding: 0 2.0em;
 }

@@ -1,6 +1,7 @@
 
 .navigation {
     background: $clr-navbg;
+    box-shadow: 0 0 1.0em rgba(#000, 0.25);
     color: $clr-navtxt;
     padding: 1.0em 2.0em;
     position: fixed;
@@ -8,12 +9,12 @@
     z-index: 100;
 
     a {
-        color: $clr-off-white;
+        color: $clr-blue-dark;
         margin: 0 0.5em;
         text-decoration: none;
 
         &:hover {
-            color: $clr-red;
+            color: $clr-blue;
         }
     }
 
