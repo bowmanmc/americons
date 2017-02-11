@@ -1,0 +1,96 @@
+---
+layout: default
+title: Americons
+permalink: /
+---
+
+<section class="content__section" id="getstarted">
+
+    <h1>Getting Started</h1>
+
+    <h2>Installing Americons</h2>
+    <p>
+        You can get Americons via the releases page on
+        <a href="https://github.com/bowmanmc/americons/releases">GitHub</a> or via NPM:
+        <pre><code class="language-bash">npm install --save americons</code></pre>
+    </p>
+
+    <p>
+        Our releases are packaged with the following contents:
+    </p>
+    <ul>
+        <li><strong>css</strong> - The CSS for Americons (generated from the sass source).</li>
+        <li><strong>fonts</strong> - The fonts used for Americons.</li>
+        <li><strong>sass</strong> - The sass source code for Americons (you can use this instead of the compiled CSS if you prefer).</li>
+        <li><strong>svg</strong> - SVG files used to generate the icon fonts. More info on how this folder is organized is below.</li>
+    </ul>
+
+    <h2>Using Americons</h2>
+    <p>
+        The easiest way is to copy the Americons folder to the root of your
+        web application and include the minified CSS file in your HTML file.
+    </p>
+    <p>
+        If you would rather use the Sass files, make sure the americons font
+        files end up in a folder named "fonts" next to the folder containing
+        your compiled CSS.
+    </p>
+
+    <h2>SVG Options</h2>
+    <p>
+        If you would rather just use the SVG files directly instead of the icon
+        fonts, look in the SVG directory. The SVG files in the icons folder are
+        the ones used in the icon fonts. They have been processed using SVGO and
+        are ready for you to include in your projects and style however you want.
+    </p>
+    <p>
+        I've also included a folder named states that contains three separate
+        SVG files for each state with varying resolutions. The low resolution
+        files are smaller but have less detail. The high resolution files are
+        larger and more complex, with much more detail. The medium ones are
+        in between. For more information on how these files were generated,
+        see the companion project
+        <a href="https://github.com/bowmanmc/americons-geo">americons-geo</a>.
+        The best one to use will depend on the size you plan on rendering
+        them at.
+    </p>
+    <p>
+        For example, here is the state of Ohio at a low resolution:
+        <br />
+        <svg class="ohio-ex-large"><use xlink:href="#ohsmall" /></svg>
+        <br />
+        oh-low.svg (size: 3kb)
+    </p>
+    <p>
+        Here is the state of Ohio at a high resolution:
+        <br />
+        <svg class="ohio-ex-large"><use xlink:href="#ohlarge" /></svg>
+        <br />
+        oh-hi.svg (size: 27kb)
+    </p>
+    <p>
+        As you can see, there's much more detail in the high resolution file
+        along the Ohio river and Lake Erie. But also the file size is 9x larger.
+    </p>
+    <p>
+        Now here are the same two files at 32x32 pixels:
+        <br />
+        <svg class="ohio-ex-small"><use xlink:href="#ohsmall" /></svg>
+        <br />
+        oh-low.svg (size: 3kb)
+        <br />
+        <svg class="ohio-ex-small"><use xlink:href="#ohlarge" /></svg>
+        <br />
+        oh-hi.svg (size: 27kb)
+    </p>
+    <p>
+        At this resolution, the differences are much harder to spot, however the
+        low resolution file is smaller and easier for the browser to render quickly.
+    </p>
+
+</section>
+
+<section class="content__section" id="icons">
+<h1>Icons</h1>
+    {% include icons.html %}
+</section>

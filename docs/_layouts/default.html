@@ -5,13 +5,15 @@
 
     <body>
 
+        {% include svg-ohio.html %}
+
         {% include navigation.html %}
         {% include header.html %}
 
         <main class="content">
             {{ content }}
         </main>
-
+        {% include footer.html %}
         {% include javascript.html %}
     </body>
 

@@ -3,4 +3,26 @@
     border-top: 1px solid $clr-white;
     box-shadow: 0 0 1.0em rgba(#000, 0.25);
     padding: 0 2.0em;
+
+    @include outer-container(100%);
+}
+
+.content__section {
+
+    @include span-columns(12);
+
+    @include media($desktop) {
+        @include span-columns(6);
+        @include omega(2n);
+    }
+}
+
+.ohio-ex-small {
+    height: 32px;
+    width: 32px;
+}
+.ohio-ex-large {
+    fill: $clr-blue-dark;
+    height: 512px;
+    width: 512px;
 }
