@@ -1,0 +1,9 @@
+
+footer {
+    background: lighten($clr-black, 7%) url('../americons/svg/icons/usa-contiguous.svg') no-repeat center center fixed;
+    background-size: cover;
+    border-top: 1px solid $clr-white;
+    color: $clr-off-white;
+    margin-top: 3.0em;
+    padding: 3.0em;
+}

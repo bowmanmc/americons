@@ -584,7 +584,6 @@ a {
 
 .content {
   border-top: 1px solid #fff;
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.25);
   padding: 0 2.0em;
   max-width: 100%;
   margin-left: auto;
@@ -622,6 +621,14 @@ a {
   fill: #041f2d;
   height: 512px;
   width: 512px; }
+
+footer {
+  background: #121212 url("../americons/svg/icons/usa-contiguous.svg") no-repeat center center fixed;
+  background-size: cover;
+  border-top: 1px solid #fff;
+  color: #f6f9f6;
+  margin-top: 3.0em;
+  padding: 3.0em; }
 
 .header {
   align-items: center;
