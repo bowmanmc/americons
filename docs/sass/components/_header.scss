@@ -5,10 +5,14 @@
     background-size: cover;
     color: $clr-headertxt;
     display: flex;
-    font-size: 128px;
+    font-size: 64px;
     height: 80%;
     justify-content: center;
     min-height: 80%;
+
+    @include media($desktop) {
+        font-size: 128px;
+    }
 }
 
 .headline {

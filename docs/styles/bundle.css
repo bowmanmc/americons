@@ -619,8 +619,8 @@ a {
 
 .ohio-ex-large {
   fill: #041f2d;
-  height: 512px;
-  width: 512px; }
+  height: 350px;
+  width: 350px; }
 
 footer {
   background: #121212 url("../americons/svg/icons/usa-contiguous.svg") no-repeat center center fixed;
@@ -636,10 +636,13 @@ footer {
   background-size: cover;
   color: #f6f9f6;
   display: flex;
-  font-size: 128px;
+  font-size: 64px;
   height: 80%;
   justify-content: center;
   min-height: 80%; }
+  @media screen and (min-width: 1024px) {
+    .header {
+      font-size: 128px; } }
 
 .headline {
   margin: 0 auto;
