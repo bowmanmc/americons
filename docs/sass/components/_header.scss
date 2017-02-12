@@ -1,7 +1,7 @@
 
 .header {
     align-items: center;
-    background: $clr-headerbg url(../images/sparkler.jpg) no-repeat center center fixed;
+    background: $clr-headerbg url(../images/sparkler-mobile.jpg) no-repeat center center fixed;
     background-size: cover;
     color: $clr-headertxt;
     display: flex;
@@ -11,6 +11,8 @@
     min-height: 80%;
 
     @include media($desktop) {
+        background: $clr-headerbg url(../images/sparkler.jpg) no-repeat center center fixed;
+        background-size: cover;
         font-size: 128px;
     }
 }

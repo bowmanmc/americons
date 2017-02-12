@@ -632,7 +632,7 @@ footer {
 
 .header {
   align-items: center;
-  background: #041f2d url(../images/sparkler.jpg) no-repeat center center fixed;
+  background: #041f2d url(../images/sparkler-mobile.jpg) no-repeat center center fixed;
   background-size: cover;
   color: #f6f9f6;
   display: flex;
@@ -642,6 +642,8 @@ footer {
   min-height: 80%; }
   @media screen and (min-width: 1024px) {
     .header {
+      background: #041f2d url(../images/sparkler.jpg) no-repeat center center fixed;
+      background-size: cover;
       font-size: 128px; } }
 
 .headline {
