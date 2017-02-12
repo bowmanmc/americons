@@ -88,6 +88,24 @@ permalink: /
         low resolution file is smaller and easier for the browser to render quickly.
     </p>
 
+    <h2>SVG use tag</h2>
+    <p>
+        There is a symbols folder in the svg directory that has a text file for
+        each state containing an svg symbol definition.
+        To use these, you'll first need to inject an svg block into your markup
+        containing a defs block with the symbols you want to use. Then you can
+        use them anywhere in your page with something like:
+        <pre><code class="language-html">
+            &lt;svg class="some-custom-class"&gt;
+                &lt;use xlink:href="#am-oh" /&gt;
+            &lt;/svg&gt;
+        </code></pre>
+    </p>
+    <p>
+        For an example of how to do this, look at the source code for this page.
+        You'll see the the ohsmall and ohlarge symbols in the hidden SVG at the top of the file.
+    </p>
+
 </section>
 
 <section class="content__section" id="icons">

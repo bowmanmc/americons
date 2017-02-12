@@ -1,8 +1,10 @@
 {
   "name": "americons",
-  "version": "1.2.2",
+  "version": "1.5.0",
   "description": "SVGs and Icon Font for the geographic boundaries of the United States",
   "scripts": {
+    "symbols": "node tools/makeSymbols.js",
+    "prefonts": "npm run symbols",
     "fonts": "node tools/makeFonts.js",
     "postfonts": "npm run fonts:sass",
     "prefonts:sass": "sass-lint -c .sass-lint.yml -v",
