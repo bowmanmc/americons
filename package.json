@@ -1,6 +1,6 @@
 {
   "name": "americons",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "SVGs and Icon Font for the geographic boundaries of the United States",
   "scripts": {
     "symbols": "node tools/makeSymbols.js",
