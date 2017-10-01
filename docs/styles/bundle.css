@@ -530,7 +530,8 @@ pre.line-numbers {
   counter-reset: linenumber; }
 
 pre.line-numbers > code {
-  position: relative; }
+  position: relative;
+  white-space: inherit; }
 
 .line-numbers .line-numbers-rows {
   position: absolute;

@@ -1,9 +1,3 @@
-<svg width="1000" height="1000">
-<rect x="25" y="251" width="474" height="333"/>
-<g>
-	<polygon points="405,251 405,288 405,325 974,325 974,288 974,251 	"/>
-	<polygon points="405,399 405,436 405,473 974,473 974,436 974,399 	"/>
-	<polygon points="25,547 25,584 25,621 974,621 974,584 974,547 	"/>
-	<polygon points="25,695 25,732 25,769 974,769 974,732 974,695 	"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-miterlimit="1.4" width="1000" height="570" viewBox="0 0 1000 570" clip-rule="evenodd" stroke-linejoin="round">
+  <path fill-rule="nonzero" d="M25 35h380v268H25zm380 0h569v37H405zm0 77h569v37H405zm0 77h569v37H405zm0 77h569v37H405zM25 343h949v37H25zm0 77h949v37H25zm0 77h949v37H25z"/>
 </svg>
